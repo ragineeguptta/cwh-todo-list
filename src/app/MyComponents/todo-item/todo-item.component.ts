@@ -12,5 +12,7 @@ export class TodoItemComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+onClick(){
+  console.log("onClick has been triggerd")
+}
 }
